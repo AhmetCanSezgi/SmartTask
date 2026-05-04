@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__Default=Data Source=/data/smarttask.db
+      - Jwt__Secret=CHANGE_THIS_TO_A_LONG_RANDOM_SECRET_KEY_MIN_32_CHARS
+      - Jwt__Issuer=SmartTask.API
+      - Jwt__Audience=SmartTask.Clients
+    volumes:
+      - db_data:/data
+
+volumes:
+  db_data:

@@ -1,0 +1,18 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.API", "SmartTask.API\SmartTask.API.csproj", "{A1B2C3D4-0001-0000-0000-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Application", "SmartTask.Application\SmartTask.Application.csproj", "{A1B2C3D4-0002-0000-0000-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Domain", "SmartTask.Domain\SmartTask.Domain.csproj", "{A1B2C3D4-0003-0000-0000-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.Infrastructure", "SmartTask.Infrastructure\SmartTask.Infrastructure.csproj", "{A1B2C3D4-0004-0000-0000-000000000004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTask.MCP", "SmartTask.MCP\SmartTask.MCP.csproj", "{A1B2C3D4-0005-0000-0000-000000000005}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+EndGlobal
