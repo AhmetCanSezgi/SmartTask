@@ -1,3 +1,4 @@
+using Scalar.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using SmartTask.API.Middleware;
@@ -32,11 +33,11 @@ builder.Services.AddOpenApi();
 var app = builder.Build();
 
 // Otomatik migration
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    await db.Database.MigrateAsync();
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+//    await db.Database.MigrateAsync();
+//}
 
 app.UseExceptionHandler();
 app.UseSerilogRequestLogging();

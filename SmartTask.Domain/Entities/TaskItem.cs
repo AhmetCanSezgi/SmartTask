@@ -1,7 +1,7 @@
 using SmartTask.Domain.Common;
-using SmartTask.Domain.Enums;
 using SmartTask.Domain.Exceptions;
-
+using Priority = SmartTask.Domain.Enums.Priority;
+using TaskStatus = SmartTask.Domain.Enums.TaskStatus;
 namespace SmartTask.Domain.Entities;
 
 /// <summary>

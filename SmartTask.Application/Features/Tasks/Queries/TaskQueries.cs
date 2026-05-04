@@ -3,8 +3,8 @@ using SmartTask.Application.Common.Interfaces;
 using SmartTask.Application.DTOs;
 using SmartTask.Domain.Common;
 using SmartTask.Domain.Entities;
-using SmartTask.Domain.Enums;
 using SmartTask.Domain.Exceptions;
+using TaskStatus = SmartTask.Domain.Enums.TaskStatus;
 
 namespace SmartTask.Application.Features.Tasks.Queries;
 
